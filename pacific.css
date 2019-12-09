@@ -1,0 +1,125 @@
+body {
+	background: url(background.jpg);
+	background-color: white;
+	color: #a9a9a9;
+	font-family: 'helvetica','arial',sans-serif;
+
+}
+
+.wrapper {
+	width: 80%;
+	min-width: 960px;
+	box-shadow: 5px 10px 5px;
+	margin: auto;
+}
+
+h1 {
+	background-color: #0000333;
+	color: white;
+	font-family: georgia,times new roman,sans-serif;
+	background: url(sunset.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding:10px;
+	margin: 0px;
+}
+
+h2 {
+	font-family: georgia,times new roman,sans-serif;
+	color: #3399CC;
+	text-shadow: 2px 2px 3px gray;
+	position: relative;
+	margin-right: auto;
+}
+
+h3 {
+	color: #000033;
+	font-family: georgia,times new roman,sans-serif;
+	position: relative;
+}
+
+
+.flex-container	{
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+}
+
+#nav {
+	background-color: #87ceeb;
+	font-weight: bolder;
+	padding: 0px;
+	margin: 0px;
+	font-size: 1.2em;
+
+}
+
+a:link {
+	text-decoration: none;
+	color: #000033;
+}
+
+a:visited {
+	color: #344873;
+}
+
+a:hover {
+	color: white;
+}
+
+#content {
+	background-color: white;
+	padding: 3px;
+	line-height: 1.3em;
+	
+}
+
+img {
+	position: relative;
+	padding-right: 20px;
+	float: left;
+	margin: 3px;
+	height: 150px;
+	width: 200px;
+
+}
+
+.word {
+	color: #000033;
+	font-weight: bolder;
+	margin: 0px;
+}
+
+
+dt {
+	font-weight: bolder;
+	position: relative;
+}
+
+#birdie {
+	position: relative;
+	animation-name: birdie;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes birdie {
+	0% {left:0px; top:0px;}
+	100% {left:650px; top:0px;}
+}
+
+#contact {
+	font-size: 90%;
+}
+
+#footer {
+	position: relative;
+	font-size: 75%;
+	font-style: italic;
+}
+
+#footer3 {
+	position: absolute;
+	font-size: 75%;
+	font-style: italic;
+}
